@@ -30,7 +30,7 @@ The application features error-handling using try-except blocks.
 ## Run
 1. Ensure Python 3.x is installed
 2. Clone this repository
-3. Run: `python expense_tracker.py`
+3. Run: `python3 expense_tracker.py`
 
 ## Use and Test
 1. Type "1" and press "Enter" to enter a new expense. You will be prompted with:  
