@@ -23,3 +23,16 @@ Car Insurance,145.0,Bills
 Dog Food,42.15,Other
 Investment Portfolio,300.0,Savings
 Laundry Detergent,11.25,Other
+Coffee,4.75,Food
+Coffee,5.25,Food
+Coffee,4.50,Food
+Zero Cost Item,0.00,Other
+Expensive Watch,2500.99,Other
+Decimal Precision Test,10.999,Food
+Name With Comma in Quotes,"Dinner, fancy",85.00,Food
+Very Long Item Name That Tests Display Limits,15.50,Services
+,,
+malformed,row
+Item,NotANumber,Food
+OnlyTwoColumns,50.00
+FourColumns,20.00,Food,Extra
