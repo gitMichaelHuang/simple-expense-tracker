@@ -3,7 +3,7 @@
 A CLI application for tracking personal expenses with category-based summaries.
 
 ## Features
-- Add individual expenses
+- Add individual expenses with pre-defined categories: "Bills", "Food", "Savings", "Services", "Other"
 - Import CSV data
 - View spending summaries and trends
 
@@ -33,12 +33,15 @@ The application features error-handling using try-except blocks.
 3. Run: `python expense_tracker.py`
 
 ## Use and Test
-1. Type "1" and press "Enter" to enter a new expense. You will be prompted with a Name, then Amount, and finally Category that you will select from.
-2. Type "2" and press "Enter" to load pre-existing data. There are two files provided: "seed-data.csv" (pretty data, 10 entries) and "test-data.csv" (ugly data, 25 entries).
-3. Data stays persist in "data.csv". To remove data, you must manually delete the contents of the file.
-4. Type "3" and press "Enter" to see generated summary of the expense data:
-    -The total expense
-    -Total expense by category
-    -Highest and lowest spend category
-    -Trends: Most frequent category and most frequency recurring purchase
+1. Type "1" and press "Enter" to enter a new expense. You will be prompted with:
+   \n-Name
+   \n-Amount
+   \n-Category (that you will select from a list).
+3. Type "2" and press "Enter" to load pre-existing data. There are two files provided: "seed-data.csv" (pretty data, 10 entries) and "test-data.csv" (ugly data, 25 entries).
+4. Data stays persist in "data.csv". To remove data, you must manually delete the contents of the file.
+5. Type "3" and press "Enter" to see generated summary of the expense data:
+    \n-The total expense
+    \n-Total expense by category
+    \n-Highest and lowest spend category
+    \n-Trends: Most frequent category and most frequency recurring purchase
 
