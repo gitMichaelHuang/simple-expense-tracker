@@ -33,15 +33,20 @@ The application features error-handling using try-except blocks.
 3. Run: `python expense_tracker.py`
 
 ## Use and Test
-1. Type "1" and press "Enter" to enter a new expense. You will be prompted with:
-   -Name
-   -Amount
-   -Category (that you will select from a list).
-3. Type "2" and press "Enter" to load pre-existing data. There are two files provided: "seed-data.csv" (pretty data, 10 entries) and "test-data.csv" (ugly data, 25 entries).
-4. Data stays persist in "data.csv". To remove data, you must manually delete the contents of the file.
-5. Type "3" and press "Enter" to see generated summary of the expense data:
-   -The total expense
-   -Total expense by category
-   -Highest and lowest spend category
-   -Trends: Most frequent category and most frequency recurring purchase
+1. **Add Expense** - Type "1" and enter:
+   - Name
+   - Amount
+   - Category (select from list)
+
+2. **Import Data** - Type "2" to load:
+   - `seed-data.csv` (10 clean entries)
+   - `test-data.csv` (25 entries with edge cases)
+
+3. **Data Persistence** - All data stored in `data.csv`. Manually delete file contents to reset.
+
+4. **View Summary** - Type "3" to see:
+   - Total expenses
+   - Spending by category
+   - Highest/lowest spend categories
+   - Trends: recurring purchases and frequent categories
 
